@@ -1,0 +1,44 @@
+body {
+    font-family: Brush Script MT, cursive;
+    font-size: 18px;
+}
+header, footer {
+    background-color: rgb(230, 230, 250);
+}
+
+.site-title {
+    color: rgb(128, 0, 128);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+#My_hobbies {
+    list-style-type: square;
+}
+
+#My_hobbies li:nth-child(odd) {
+    background-color: lightcyan;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: aliceblue;
+    border: 5px lightblue;
+    padding: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: lavender;
+    color: black;
+}
