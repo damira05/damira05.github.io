@@ -230,6 +230,10 @@ h2, h3, p, button {
  
 /*our team*/ 
  
+#team > div > img {
+    width: 100%;
+}
+
 #team > div { 
     background-color: #ffe6ac; 
     margin: 20px; 
