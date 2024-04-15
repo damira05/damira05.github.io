@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 18px; 
+} 
+ 
+ 
+.wrapper { 
+ margin: 0px 15px 0px 15px; 
+} 
+ 
+/*Headings*/  
+h1 { 
+    font-size: 120px; 
+    line-height: 170px; 
+    color: white; 
+    font-weight: 700; 
+    padding-left: 20px; 
+} 
+ 
+h2 { 
+    font-size: 60px; 
+    margin: 25px; 
+    padding-top: 30px; 
+    padding-bottom: 20px; 
+ font-weight: 700; 
+} 
+ 
+h3 { 
+    font-size: 40px; 
+    font-weight: 700; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+ 
+body { 
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 30px; 
+} 
+ 
+body { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+} 
+ 
+/*navigation*/ 
+.container1 { 
+    background-color: #222; 
+    padding: 10px; 
+} 
+ 
+
+.logo {  
+    height: 15%;  
+    width: 15%;  
+}  
+ 
+
+.imgnav {  
+    background-color: #c78c06;  
+    margin: 10px;  
+    margin-bottom: 0;  
+}  
+  
+li a {  
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    color: #c78c06;  
+    text-decoration: none;  
+    text-align: center;  
+    font-size: 14px;  
+    font-weight: 500;  
+    padding: 2%;  
+    margin: 10px;  
+    margin-top: 0;  
+    margin-bottom: 0;  
+}  
+  
+li a.unique {  
+    background-color: #c78c06;  
+    color: #222;  
+    padding: 2%;  
+}  
+  
+li a:hover:not(.unique) {  
+    background-color: #c78c06;  
+    color: #222;  
+    padding: 2%;  
+}  
+  
+/*nutton connect with us*/
+.connect {  
+    font-size: 30px; 
+    font-weight: 500; 
+    border: 0;  
+    height: 130px; 
+    width: 380px; 
+    background-color: #c78c06;   
+}  
+ 
+/*welcome to three star media*/ 
+.star { 
+    background-image: url(/damira05.github.io/final-project/images/main-banner.jpg); /*image for h1, p and button*/ 
+    background-color: #222; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+    width: 1200px; 
+    height: 900px; 
+    padding-left: 40px; 
+} 
+ 
+.text { 
+    padding-top: 180px; 
+} 
+ 
+/*About us*/
+#about { 
+    background-color: #ffe6ac; 
+    padding: 15px; 
+} 
+ 
+.container2 > img { 
+    display: flex; 
+    flex-direction: column; 
+    width: 1140px; 
+    margin: 15px 15px 15px 15px; 
+} 
+ 
+/*services*/
+#services > div { 
+    background-color: #ffe6ac; 
+    margin: 20px; 
+} 
+
+#services > div > img {
+    width: 100%;
+}
+ 
+h2, h3, p, button { 
+    margin: 25px; 
+} 
+ 
+#services > div > button { 
+    font-size: 30px; 
+    font-weight: 500; 
+    background-color: #222; 
+    color: white; 
+    height: 130px; 
+    width: 350px; 
+    margin: 10px 25px; 
+    border: none; 
+    margin-bottom: 25px; 
+} 
+ 
+ 
+/*our vision*/ 
+.vision { 
+    background-image: url(/damira05.github.io/final-project/images/vision.jpg); 
+    color: white; 
+} 
+ 
+.vision > h3 { 
+    padding-top: 50px; 
+} 
+ 
+.vision > button { 
+    width: 300px; 
+    height: 115px; 
+    color: white; 
+    background-color: #00003f; 
+    border: 1px solid #c78c06; 
+    font-size: 30px; 
+} 
+ 
+/*our team*/ 
+ 
+#team > div { 
+    background-color: #ffe6ac; 
+    margin: 20px; 
+} 
+ 
+#team > div > h3 { 
+    margin: 0; 
+    margin: 15px 25px 5px 25px; 
+} 
+ 
+#team > div > h4 { 
+    font-weight: 700; 
+    margin: 0 25px; 
+    border-bottom: 3px solid #c78c06; 
+} 
+ 
+#team > div > p { 
+    padding-bottom: 40px; 
+} 
+ 
+/*contact us*/ 
+ 
+#contact > h2 { 
+    margin: 80px 25px 20px 25px; 
+} 
+ 
+/*forms*/ 
+.forms { 
+    margin: 25px; 
+} 
+ 
+ 
+#fullname, #email, #message { 
+    height: 35px;  
+    width: 100%;
+} 
+  
+.button { 
+    background-color: #222; 
+    color: #c78c06; 
+    height: 30px; 
+} 
+ 
+table { 
+    table-layout: fixed; 
+    height: 50px;
+    width: 1150px;
+    border-collapse: collapse; 
+    border: 3px solid #222;
+    margin: 25px; 
+   
+} 
+
+th, 
+td { 
+    padding: 20px; 
+} 
+ 
+tbody td { 
+    text-align: center; 
+} 
+   
+tfoot th { 
+    text-align: right;
+} 
+ 
+tbody tr:nth-child(1) { 
+    background-color: #ffe6ac; 
+} 
+ 
+.location > h3 { 
+    margin: 25px 25px 15px 25px; 
+} 
+ 
+.location > iframe{ 
+    margin: 25px; 
+    width: 1150px;
+    height: 500px;
+} 
+ 
+/*footer*/ 
+footer { 
+    width: 1200px;
+    background-color: #222; 
+    color: #c78c06; 
+    padding: 25px; 
+} 
+ 
+#services > div {
+    padding: 20px; 
+    text-align: center; 
+}
+
+@media screen and (min-width: 760px) {
+    
+    #services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+} 
+
+@media screen and (min-width: 760px) {
+    
+    .navbar {
+		display: inline-block;
+		position: absolute;
+		top: 23px;
+		left: 250px;
+	}
+
+}
