@@ -219,7 +219,7 @@ h2, h3, p, button {
     padding-top: 50px; 
 } 
  
-.vision > button { 
+.vision-content > button { 
     width: 300px; 
     height: 115px; 
     color: white; 
@@ -259,11 +259,20 @@ h2, h3, p, button {
 #contact > h2 { 
     margin: 80px 25px 20px 25px; 
 } 
+
+#contact > div > h3 {
+    margin: 25px;
+}
+
+#contact > .forms > h3 {
+    margin: 0;
+}
  
 /*forms*/ 
 .forms { 
     margin: 25px; 
 } 
+
  
  
 #fullname, #email, #message { 
